@@ -1,6 +1,5 @@
 #pragma once
 
-#include <algorithm>
 #include <string>
 #include <unordered_set>
 #include <vector>
@@ -71,6 +70,10 @@ private:
 
 	char tr_dest[128];
 	bool isEditingTD;
+
+	void writeTileJson(hcm::Level &level, Vector2 pos, std::string filename);
+	void InteractWithTile();
+
 	void TypingCode();
 public:
 	hcm::Level *level;
@@ -83,36 +86,7 @@ public:
 	LevelEditor();
 };
 
-static void fill(LevelEditor &hostScene, std::vector<std::unique_ptr<hcm::Tile>>& canvas, int x, int y, int z, int targetID, int fillID, std::unordered_set<int>& visited) {
-    // Check if current position is within canvas bounds
-    if(x < 0 || y < 0 || x >= (hostScene.level->getSize().x*TILE_SIZE) || y >= (hostScene.level->getSize().y*TILE_SIZE)) return;
-
-    // Calculate index of the tile in the vector
-    auto it = std::find_if(canvas.begin(), canvas.end(), [x, y, z](const auto& tile){
-            return tile->getBody().x == x && tile->getBody().y == y && tile->getZ() == z;
-            });
-
-
-    if(it == canvas.end()) return;
-    int index = (*it)->getSlot();
-
-    // Check if current position has already been visited or has different ID or z value
-    if(visited.find(index) != visited.end() || canvas[index]->getID() != targetID || canvas[index]->getZ() != z)
-        return;
-
-    // Fill current tile with fill ID
-    int prevSlot = canvas[index]->getSlot();
-    canvas[index] = std::make_unique<hcm::Tile>(hcm::Tile(fillID, canvas[index]->getPos(), canvas[index]->getZ()));
-    canvas[index]->setSlot(prevSlot);
-
-    // Add current index to visited set
-    visited.insert(index);
-
-    // Perform fill operation recursively in all four directions
-    fill(hostScene, canvas, x + TILE_SIZE, y, z, targetID, fillID, visited); // Right
-    fill(hostScene, canvas, x - TILE_SIZE, y, z, targetID, fillID, visited); // Left
-    fill(hostScene, canvas, x, y + TILE_SIZE, z, targetID, fillID, visited); // Down
-    fill(hostScene, canvas, x, y - TILE_SIZE, z, targetID, fillID, visited); // Up
-}
+std::vector<std::string> tilesToStrings(std::vector<std::unique_ptr<hcm::Tile>>& tiles, Vector2 canvas_size, int total_layers);
+void fill(LevelEditor &hostScene, std::vector<std::unique_ptr<hcm::Tile>>& canvas, int x, int y, int z, int targetID, int fillID, std::unordered_set<int>& visited);
 
 };
