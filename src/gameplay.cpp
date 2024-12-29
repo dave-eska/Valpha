@@ -1,50 +1,16 @@
 #include "gameplay.hpp"
-#include "ability.hpp"
-#include "global_variable.hpp"
-#include "raylib.h"
-#include "scene.hpp"
-#include "utils/fileUtil.hpp"
-#include <cstring>
+
 #include <string>
+#include <cstring>
 
-void Gameplay::TypingCode(){
-    char c = GetCharPressed();
-    if (c){
-        userInput.push_back(c);
-    }
+#include "global_variable.hpp"
 
-    if(IsKeyPressed(KEY_BACKSPACE) && !userInput.empty())
-		userInput.pop_back();
-	if(IsKeyPressed(KEY_ENTER)){
-		if(!userInput.empty()){
-			chatlog.push_back(userInput);
-			userInput.clear();
-		}
-		isTyping=false;
-	}
-}
+#include <raylib.h>
+
+#include "scene.hpp"
+#include "ability.hpp"
 
 void Gameplay::Update(float dt){
-	if(clearChat > 0 && !chatlog.empty()) clearChat -= GetFrameTime();
-
-	if(clearChat <= 0){
-		std::string strText = readFile("chatLogs.txt");
-		for(auto& e : chatlog){
-			strText.append("\n");
-			strText.append(e);
-		}
-
-		char* text = new char[strText.length() + 1];
-		std::strcpy(text, strText.c_str());
-
-		SaveFileText("chatLogs.txt", text);
-
-		delete[] text;
-		chatlog.clear();
-	}
-
-	if(clearChat <= 0) clearChat = 10.0f;
-
 
 	float wheelMove = GetMouseWheelMove();
 
@@ -59,16 +25,8 @@ void Gameplay::Update(float dt){
         player->Move(GetFrameTime());
     }
 
-	if(IsKeyPressed(KEY_PAGE_UP))
-		isTyping = true;
-
-	if(isTyping)
-		TypingCode();
-
 	level->Update(GetFrameTime());
-
 	am->Update();
-
 }
 
 void Gameplay::Draw(){
@@ -86,11 +44,6 @@ void Gameplay::Draw(){
 		auto& chat = chatlog[i];
 		DrawText(chat.c_str(), 0, GetScreenHeight()/2 + i*20, 20, WHITE);
 	}
-
-	if(isTyping){
-        DrawRectangleRec({(float)GetScreenWidth()-520, 10, 500, 35}, {20,20,20,130});
-        DrawText(userInput.c_str(), (float)GetScreenWidth()-500, 10, 35, BLACK);
-    }
 
 	if(isDebugging){
 		DrawText(std::to_string(player->getSpeed()).c_str(), 0, 0, 35, BLACK);
@@ -112,6 +65,4 @@ Gameplay::Gameplay() : Scene("Gameplay Test", 0.5){
 
 	camMax = 3.0f;
 	camMin = 0.1f;
-
-	clearChat = 10.0f;
 }
