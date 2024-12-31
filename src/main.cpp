@@ -1,6 +1,10 @@
 #include "global_variable.hpp"
 
+#include "json/reader.h"
 #include <cstring>
+#include <fstream>
+#include <iostream>
+#include <ostream>
 #include <string>
 
 #include <raylib.h>
@@ -27,7 +31,14 @@ void TypingCode(std::string& userInput){
 }
 
 int main(){
-	SetTraceLogLevel(LOG_NONE);
+	// Initialization
+
+    Json::Reader jsonreader;
+
+    std::ifstream file("res/config.json");
+    jsonreader.parse(file, config);
+
+	if(!config["showDebugLog"].asBool()) SetTraceLogLevel(LOG_NONE);
 	SetConfigFlags(FLAG_WINDOW_RESIZABLE);
 
 	InitWindow(1920, 1080, "Melieska");
