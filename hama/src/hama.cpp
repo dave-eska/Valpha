@@ -4,48 +4,50 @@
 
 #include <raymath.h>
 
+#include "global_variable.hpp"
 #include "raylib.h"
 #include "scene.hpp"
+#include "world.hpp"
 
 #define MaxTileID 3.5
 
 namespace hama{
 
 std::vector<std::string> tilesToStrings(std::vector<std::unique_ptr<hcm::Tile>>& tiles, Vector2 canvas_size, int total_layers){
-    std::vector<std::string> result;
+	std::vector<std::string> result;
 
-    std::string layer;
+	std::string layer;
 
-    for(int j=0;j<total_layers;j++){
-        for(int i=0;i<tiles.size();++i){
-            if(tiles[i]->getZ() == j){
-                std::string tileID = std::to_string(tiles[i]->getID());
-                for(const char& c:tileID)
-                    layer.push_back(c);
-                layer.push_back(' ');
-                if((i+1) % (int)canvas_size.x == 0 && i != 0){
-                    layer.push_back('\n');
-                }
-            }
-        }
+	for(int j=0;j<total_layers;j++){
+		for(int i=0;i<tiles.size();++i){
+			if(tiles[i]->getZ() == j){
+				std::string tileID = std::to_string(tiles[i]->getID());
+				for(const char& c:tileID)
+				layer.push_back(c);
+				layer.push_back(' ');
+				if((i+1) % (int)canvas_size.x == 0 && i != 0){
+					layer.push_back('\n');
+				}
+			}
+		}
 
-        // Remove the spaces behind newlines
-        for(int i=0;i<layer.size();i++){
-            if(layer[i] == ' ' && layer[i+1] == '\n'){
-                layer.erase(layer.begin() + i);
-            }
-        }
+		// Remove the spaces behind newlines
+		for(int i=0;i<layer.size();i++){
+			if(layer[i] == ' ' && layer[i+1] == '\n'){
+				layer.erase(layer.begin() + i);
+			}
+		}
 
-        result.push_back(layer);
-        layer.clear();
-    }
+		result.push_back(layer);
+		layer.clear();
+	}
 
-    return result;
+	return result;
 }
 
-void fill(LevelEditor &hostScene, std::vector<std::unique_ptr<hcm::Tile>>& canvas, int x, int y, int z, int targetID, int fillID, std::unordered_set<int>& visited) {
+void LevelEditor::fill(std::vector<std::unique_ptr<hcm::Tile>>& canvas, int x, int y, int z, int targetID, int fillID, std::unordered_set<int>& visited) {
 	// Check if current position is within canvas bounds
-	if(x < 0 || y < 0 || x >= (hostScene.level->getSize().x*TILE_SIZE) || y >= (hostScene.level->getSize().y*TILE_SIZE)) return;
+	if(x < 0 || y < 0 || x >= (this->level->getSize().x*TILE_SIZE) || y >= (this->level->getSize().y*TILE_SIZE)) return;
 
 	// Calculate index of the tile in the vector
 	auto it = std::find_if(canvas.begin(), canvas.end(), [x, y, z](const auto& tile){
@@ -69,24 +71,42 @@ void fill(LevelEditor &hostScene, std::vector<std::unique_ptr<hcm::Tile>>& canva
 	visited.insert(index);
 
 	// Perform fill operation recursively in all four directions
-	fill(hostScene, canvas, x + TILE_SIZE, y, z, targetID, fillID, visited); // Right
-	fill(hostScene, canvas, x - TILE_SIZE, y, z, targetID, fillID, visited); // Left
-	fill(hostScene, canvas, x, y + TILE_SIZE, z, targetID, fillID, visited); // Down
-	fill(hostScene, canvas, x, y - TILE_SIZE, z, targetID, fillID, visited); // Up
+	fill(canvas, x + TILE_SIZE, y, z, targetID, fillID, visited); // Right
+	fill(canvas, x - TILE_SIZE, y, z, targetID, fillID, visited); // Left
+	fill(canvas, x, y + TILE_SIZE, z, targetID, fillID, visited); // Down
+	fill(canvas, x, y - TILE_SIZE, z, targetID, fillID, visited); // Up
 }
 
 void LevelEditor::Update(float dt){
-	float wheelMove = GetMouseWheelMove();
-	if(wheelMove != 0.0f) {
-		camera.zoom += wheelMove * 0.1f; // Adjust zoom sensitivity if needed
-		if(camera.zoom > cammax) camera.zoom = cammax;
-		if(camera.zoom < cammin) camera.zoom = cammin;
+	// Camera Movement
+	if(IsMouseButtonDown(MOUSE_BUTTON_RIGHT) or IsMouseButtonDown(MOUSE_BUTTON_MIDDLE)){
+		Vector2 delta = GetMouseDelta();
+		delta = Vector2Scale(delta, -1.0f/camera.zoom);
+
+		camera.target = Vector2Add(camera.target, delta);
 	}
+
+	// Zoom with mouse wheel
+	if(!IsKeyDown(KEY_LEFT_CONTROL)){
+		float wheel = GetMouseWheelMove();
+		if(wheel != 0){
+			Vector2 mouseWorldPos = GetScreenToWorld2D(GetMousePosition(), camera);
+			camera.offset = GetMousePosition();
+			camera.target = mouseWorldPos;
+			const float zoomIncrement = 0.125f;
+			camera.zoom += (wheel*zoomIncrement);
+
+			if (camera.zoom < zoomIncrement) camera.zoom = zoomIncrement;
+		}
+	}
+
+	level->Update(GetFrameTime());
 }
 
 void LevelEditor::Draw(){
 	BeginMode2D(camera);
-	//!stuff in camera here
+
+	level->Draw();
 
 	EndMode2D();
 
@@ -96,6 +116,10 @@ void LevelEditor::Unload(){
 }
 
 LevelEditor::LevelEditor() : hcm::Scene("hamma homtana", 0.5){
+	level = new hcm::Level(config["hama"]["defaultLevelPath"].asString().c_str());
+
+	cammax = config["hama"]["cammax"].asFloat();
+	cammin = config["hama"]["cammin"].asFloat();
 }
 
 };

@@ -14,9 +14,12 @@ namespace hama{
 
 class LevelEditor : public hcm::Scene{
 private:
-	float cammax, cammin;
-public:
 	hcm::Level *level;
+
+	float cammax, cammin;
+
+	void fill(std::vector<std::unique_ptr<hcm::Tile>>& canvas, int x, int y, int z, int targetID, int fillID, std::unordered_set<int>& visited);
+public:
 
 	void Update(float dt) override;
 	void Draw() override;
@@ -27,6 +30,5 @@ public:
 };
 
 std::vector<std::string> tilesToStrings(std::vector<std::unique_ptr<hcm::Tile>>& tiles, Vector2 canvas_size, int total_layers);
-void fill(LevelEditor &hostScene, std::vector<std::unique_ptr<hcm::Tile>>& canvas, int x, int y, int z, int targetID, int fillID, std::unordered_set<int>& visited);
 
 };
