@@ -7,14 +7,25 @@
 #include <raylib.h>
 
 #include "scene.hpp"
+#include "tile.hpp"
 #include "world.hpp"
 
 namespace hama{
 
+enum class Modes{
+	Pencil,
+	Eraser,
+	Eyedrop
+};
 
 class LevelEditor : public hcm::Scene{
 private:
 	hcm::Level *level;
+
+	hcm::InventoryItem currentTile;
+	int maxTile;
+
+	Modes currentMode;
 
 	float cammax, cammin;
 

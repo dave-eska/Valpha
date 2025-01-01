@@ -1,12 +1,17 @@
 #include "hama.hpp"
 
+#include "json/reader.h"
+#include "json/value.h"
 #include <algorithm>
 
+#include <fstream>
 #include <raymath.h>
+#include <string>
 
 #include "global_variable.hpp"
 #include "raylib.h"
 #include "scene.hpp"
+#include "tile.hpp"
 #include "world.hpp"
 
 #define MaxTileID 3.5
@@ -87,16 +92,31 @@ void LevelEditor::Update(float dt){
 	}
 
 	// Zoom with mouse wheel
+	float wheel = GetMouseWheelMove();
+	Vector2 mouseWorldPos = GetScreenToWorld2D(GetMousePosition(), camera);
 	if(!IsKeyDown(KEY_LEFT_CONTROL)){
-		float wheel = GetMouseWheelMove();
 		if(wheel != 0){
-			Vector2 mouseWorldPos = GetScreenToWorld2D(GetMousePosition(), camera);
 			camera.offset = GetMousePosition();
 			camera.target = mouseWorldPos;
 			const float zoomIncrement = 0.125f;
 			camera.zoom += (wheel*zoomIncrement);
 
 			if (camera.zoom < zoomIncrement) camera.zoom = zoomIncrement;
+		}
+	}else{
+		if(wheel != 0){
+			if(wheel > 0) {
+				currentTile.tileID++;
+				if (currentTile.tileID > maxTile) {
+					currentTile.tileID = 0; // Wrap around to the minimum tileID
+				}
+			}else if(wheel< 0) {
+				currentTile.tileID--;
+				if (currentTile.tileID < 0) {
+					currentTile.tileID = maxTile; // Wrap around to the maximum tileID
+				}
+			}
+			currentTile = hcm::newItem<hcm::Tile>(currentTile.tileID);
 		}
 	}
 
@@ -110,6 +130,7 @@ void LevelEditor::Draw(){
 
 	EndMode2D();
 
+	DrawTexturePro(currentTile.iconTexture, {0,0,32,32}, {32, 83, 32*2, 32*2}, {0, 0}, 0, WHITE);
 }
 
 void LevelEditor::Unload(){
@@ -117,6 +138,17 @@ void LevelEditor::Unload(){
 
 LevelEditor::LevelEditor() : hcm::Scene("hamma homtana", 0.5){
 	level = new hcm::Level(config["hama"]["defaultLevelPath"].asString().c_str());
+
+	currentTile = hcm::newItem<hcm::Tile>(1);
+	currentMode = Modes::Pencil;
+
+	Json::Reader jsonreader;
+	Json::Value itemsJson;
+
+	std::ifstream file("res/items.json");
+	jsonreader.parse(file, itemsJson);
+
+	maxTile = itemsJson.size() - 1;
 
 	cammax = config["hama"]["cammax"].asFloat();
 	cammin = config["hama"]["cammin"].asFloat();
