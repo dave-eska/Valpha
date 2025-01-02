@@ -31,6 +31,10 @@ void TypingCode(std::string& userInput){
 }
 
 int main(){
+
+	std::cout<<"hello world!"<<std::endl;
+	std::cout<<"typing on warnet"<<std::endl;
+	
 	// Initialization
 
     Json::Reader jsonreader;
