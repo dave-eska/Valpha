@@ -29,4 +29,12 @@ Color GetRainbowColor() {
 
 	return Color{(unsigned char)r, (unsigned char)g, (unsigned char)b, 255};
 }
+
+void changeIntWithKey(int& val, int incrKey, int decrKey, int maxVal, int minVal){
+	if(IsKeyPressed(incrKey)) val++;
+	if(IsKeyPressed(incrKey)) val--;
+
+	if(val > maxVal) val = 0;
+	else if(val < 0) val = maxVal;
+}
 };
