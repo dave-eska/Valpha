@@ -31,7 +31,15 @@ void TypingCode(std::string& userInput){
 }
 
 int main(){
+<<<<<<< HEAD
 	Json::Reader jsonreader;
+=======
+
+	std::cout<<"hello world!"<<std::endl;
+	std::cout<<"typing on warnet"<<std::endl;
+	
+	// Initialization
+>>>>>>> e624be9b0afdd3a55dcedbcd704aa750d79181a1
 
 	std::ifstream file("res/config.json");
 	jsonreader.parse(file, config);
