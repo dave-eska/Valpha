@@ -18,6 +18,41 @@ bool Tile::hasAnimation(){
 	return texture.width / 32 > 1;
 }
 
+InventoryItem Tile::asItem(int total_count){
+    std::vector<RecipeItem> resep;
+
+    Json::Reader jsonreader;
+
+    std::ifstream file("res/yes.json");
+    Json::Value jsonvalue;
+    jsonreader.parse(file, jsonvalue);
+
+    if(jsonvalue[id].isMember("recipe")){
+        const Json::Value recipeArray = jsonvalue[id]["recipe"];
+
+        // Iterate through the JSON array and populate the vector
+        for(const auto& elem : recipeArray) {
+            RecipeItem arr;
+            arr.id = elem[0].asInt();
+            arr.count = elem[1].asInt();
+
+            resep.push_back(arr);
+        }
+    }
+
+    return{
+        .tileID=id,
+            .item_type=type,
+            .item_name=name,
+            .filename = "res/yes.json",
+            .item_invslot=0,
+            .item_count=total_count,
+            .damage=1,
+            .recipe = resep,
+            .iconTexture=texture
+    };
+}
+
 void Tile::Update(){
 }
 
@@ -135,4 +170,12 @@ Tile::Tile(int id, Vector2 pos, int z_level) : id{id}, body{pos.x, pos.y, TILE_S
 
 	animation = CreateSpriteAnimation(texture, fps, animRect, totalFrame);
 }
+
+void assignInvSlot(InventoryItem& item, int slot){
+	item.item_invslot=slot;
+}
+
+void InventoryItem::UpdateDrawItem(){
+}
+
 };

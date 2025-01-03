@@ -1,25 +1,25 @@
 #include "global_variable.hpp"
 
-#include "json/reader.h"
-#include <cstring>
-#include <fstream>
-#include <iostream>
-#include <ostream>
 #include <string>
+#include <fstream>
+#include <cstring>
+
+#include <json/reader.h>
 
 #include <raylib.h>
 
+#include "hama.hpp"
 #include "utils/fileUtil.hpp"
 
 #include "gameplay.hpp"
 
 void TypingCode(std::string& userInput){
-    char c = GetCharPressed();
-    if (c){
-        userInput.push_back(c);
-    }
+	char c = GetCharPressed();
+	if (c){
+		userInput.push_back(c);
+	}
 
-    if(IsKeyPressed(KEY_BACKSPACE) && !userInput.empty())
+	if(IsKeyPressed(KEY_BACKSPACE) && !userInput.empty())
 		userInput.pop_back();
 	if(IsKeyPressed(KEY_ENTER)){
 		if(!userInput.empty()){
@@ -31,19 +31,18 @@ void TypingCode(std::string& userInput){
 }
 
 int main(){
-	// Initialization
+	Json::Reader jsonreader;
 
-    Json::Reader jsonreader;
-
-    std::ifstream file("res/config.json");
-    jsonreader.parse(file, config);
+	std::ifstream file("res/config.json");
+	jsonreader.parse(file, config);
 
 	if(!config["showDebugLog"].asBool()) SetTraceLogLevel(LOG_NONE);
 	SetConfigFlags(FLAG_WINDOW_RESIZABLE);
 
-	InitWindow(1920, 1080, "Melieska");
+	InitWindow(1920, 1080, "valpha v0.1");
 
 	Gameplay* gameplay = new Gameplay();
+	hama::LevelEditor* levelEditor = new hama::LevelEditor();
 
 	isDebugging = false;
 	isTyping = false;
@@ -56,7 +55,7 @@ int main(){
 		if(IsKeyPressed(KEY_X)) isDebugging = !isDebugging;
 		if(IsKeyPressed(KEY_PAGE_UP)) isTyping = true;
 
-		gameplay->Update(GetFrameTime());
+		levelEditor->Update(GetFrameTime());
 
 		if(clearChat > 0 && !chatlog.empty()) clearChat -= GetFrameTime();
 		if(clearChat <= 0){
@@ -77,12 +76,11 @@ int main(){
 
 		if(clearChat <= 0) clearChat = 10.0f;
 
-
 		BeginDrawing();
 
 		ClearBackground(GRAY);
 
-		gameplay->Draw();
+		levelEditor->Draw();
 
 		if(isTyping){
 			TypingCode(userInput);
