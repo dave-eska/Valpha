@@ -1,5 +1,6 @@
 #pragma once
 
+#include <map>
 #include <string>
 #include <unordered_set>
 #include <vector>
@@ -15,17 +16,30 @@ namespace hama{
 enum class Modes{
 	Pencil,
 	Eraser,
-	Eyedrop
+	Eyedrop,
+
+	EOE
 };
+
+inline std::map<Modes, std::string> modeToString = {
+	{Modes::Pencil, "Pencil"},
+	{Modes::Eraser, "Eraser"},
+	{Modes::Eyedrop, "Eyedrop"}
+};
+
+struct spectateLevelTile{int idx, id; Texture2D texture;};
 
 class LevelEditor : public hcm::Scene{
 private:
 	hcm::Level *level;
 
 	hcm::InventoryItem currentTile;
+	spectateLevelTile selectedTile;
 	int maxTile;
 
-	Modes currentMode;
+	int currentZLayer;
+
+	int currentMode;
 
 	float cammax, cammin;
 
