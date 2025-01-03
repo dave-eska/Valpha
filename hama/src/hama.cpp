@@ -120,6 +120,46 @@ void LevelEditor::Update(float dt){
 		}
 	}
 
+
+
+	if(IsKeyPressed(KEY_D)) currentMode++;
+	if(IsKeyPressed(KEY_A)) currentMode--;
+
+	if(currentMode >= (int)Modes::EOE) currentMode = 0;
+	if(currentMode < 0) currentMode = (int)Modes::EOE-1;
+
+	for(auto& tile : level->tiles){
+		tile->setIsTouchingMouse(false);
+
+		if(CheckCollisionPointRec(GetScreenToWorld2D(GetMousePosition(), camera), tile->getBody())){
+			tile->setIsTouchingMouse(true);
+		}
+
+		switch((Modes)currentMode){
+			case hama::Modes::Pencil:
+				{
+				}
+			break;
+			case hama::Modes::Eraser:
+				{
+				}
+			break;
+			case hama::Modes::Eyedrop:
+				{
+					if(IsMouseButtonPressed(MOUSE_BUTTON_LEFT) && tile->getIsTouchingMouse()){
+						selectedTile = {
+						.idx = tile->getSlot() ,
+							.id = 1,
+							.texture = hcm::newItem<hcm::Tile>(1).iconTexture
+						};
+					}
+				}
+			break;
+			default:
+			break;
+		}
+	}
+
 	level->Update(GetFrameTime());
 }
 
@@ -130,17 +170,32 @@ void LevelEditor::Draw(){
 
 	EndMode2D();
 
-	DrawTexturePro(currentTile.iconTexture, {0,0,32,32}, {32, 83, 32*2, 32*2}, {0, 0}, 0, WHITE);
+	DrawTexturePro(currentTile.iconTexture, {0,0,32,32}, {32, 32, 32*2, 32*2}, {0, 0}, 0, WHITE);
+	DrawTexturePro(selectedTile.texture, {0,0,32,32}, {32*4, 32, 32*2, 32*2}, {0, 0}, 0, WHITE);
+
+	std::string tmpStr = "< " + modeToString[(Modes)currentMode] + " >";
+	DrawText(tmpStr.c_str(), 32, 32*4, 32, BLACK);
+
+	tmpStr = "Current Z Layer: " + std::to_string(currentZLayer);
+	DrawText(tmpStr.c_str(), 32, 32*6, 32, BLACK);
 }
 
 void LevelEditor::Unload(){
 }
 
-LevelEditor::LevelEditor() : hcm::Scene("hamma homtana", 0.5){
+LevelEditor::LevelEditor() : hcm::Scene("Hama", 0.5){
 	level = new hcm::Level(config["hama"]["defaultLevelPath"].asString().c_str());
 
 	currentTile = hcm::newItem<hcm::Tile>(1);
-	currentMode = Modes::Pencil;
+	currentMode = (int)Modes::Pencil;
+
+	selectedTile = {
+		.idx = 0,
+		.id = 1,
+		.texture = hcm::newItem<hcm::Tile>(1).iconTexture
+	};
+
+	currentZLayer = 0;
 
 	Json::Reader jsonreader;
 	Json::Value itemsJson;
@@ -149,6 +204,7 @@ LevelEditor::LevelEditor() : hcm::Scene("hamma homtana", 0.5){
 	jsonreader.parse(file, itemsJson);
 
 	maxTile = itemsJson.size() - 1;
+
 
 	cammax = config["hama"]["cammax"].asFloat();
 	cammin = config["hama"]["cammin"].asFloat();
