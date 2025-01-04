@@ -5,6 +5,7 @@
 #include <algorithm>
 
 #include <fstream>
+#include <memory>
 #include <raymath.h>
 #include <string>
 
@@ -138,13 +139,18 @@ void LevelEditor::Update(float dt){
 			break;
 			case hama::Modes::Eraser:
 				{
+					if(IsMouseButtonDown(MOUSE_BUTTON_LEFT) && tile->getIsTouchingMouse() && currentZLayer == tile->getZ()){
+						int slot = tile->getSlot();
+						tile = std::make_unique<hcm::Tile>(hcm::Tile(0, tile->getPos(), tile->getZ()));
+						tile->setSlot(slot);
+					}
 				}
 			break;
 			case hama::Modes::Eyedrop:
 				{
 					if(IsMouseButtonPressed(MOUSE_BUTTON_LEFT) && tile->getIsTouchingMouse() && currentZLayer == tile->getZ()){
 						selectedTile = {
-						.idx = tile->getSlot() ,
+							.idx = tile->getSlot(),
 							.id = 1,
 							.texture = hcm::newItem<hcm::Tile>(tile->getID()).iconTexture
 						};
@@ -186,7 +192,7 @@ LevelEditor::LevelEditor() : hcm::Scene("Hama", 0.5){
 	currentMode = (int)Modes::Pencil;
 
 	selectedTile = {
-		.idx = 0,
+		.idx = -1,
 		.id = 1,
 		.texture = hcm::newItem<hcm::Tile>(1).iconTexture
 	};
@@ -200,7 +206,6 @@ LevelEditor::LevelEditor() : hcm::Scene("Hama", 0.5){
 	jsonreader.parse(file, itemsJson);
 
 	maxTile = itemsJson.size() - 1;
-
 
 	cammax = config["hama"]["cammax"].asFloat();
 	cammin = config["hama"]["cammin"].asFloat();
