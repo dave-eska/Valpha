@@ -8,6 +8,7 @@
 #include <raymath.h>
 #include <string>
 
+#include "global_functions.hpp"
 #include "global_variable.hpp"
 #include "raylib.h"
 #include "scene.hpp"
@@ -120,13 +121,8 @@ void LevelEditor::Update(float dt){
 		}
 	}
 
-
-
-	if(IsKeyPressed(KEY_D)) currentMode++;
-	if(IsKeyPressed(KEY_A)) currentMode--;
-
-	if(currentMode >= (int)Modes::EOE) currentMode = 0;
-	if(currentMode < 0) currentMode = (int)Modes::EOE-1;
+	hcm::changeIntWithKey(currentMode, KEY_D, KEY_A, (int)Modes::EOE-1, 0);
+	hcm::changeIntWithKey(currentZLayer, KEY_W, KEY_S, 2, 0);
 
 	for(auto& tile : level->tiles){
 		tile->setIsTouchingMouse(false);
@@ -146,11 +142,11 @@ void LevelEditor::Update(float dt){
 			break;
 			case hama::Modes::Eyedrop:
 				{
-					if(IsMouseButtonPressed(MOUSE_BUTTON_LEFT) && tile->getIsTouchingMouse()){
+					if(IsMouseButtonPressed(MOUSE_BUTTON_LEFT) && tile->getIsTouchingMouse() && currentZLayer == tile->getZ()){
 						selectedTile = {
 						.idx = tile->getSlot() ,
 							.id = 1,
-							.texture = hcm::newItem<hcm::Tile>(1).iconTexture
+							.texture = hcm::newItem<hcm::Tile>(tile->getID()).iconTexture
 						};
 					}
 				}
