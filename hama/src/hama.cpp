@@ -125,6 +125,10 @@ void LevelEditor::Update(float dt){
 	hcm::changeIntWithKey(currentMode, KEY_D, KEY_A, (int)Modes::EOE-1, 0);
 	hcm::changeIntWithKey(currentZLayer, KEY_W, KEY_S, 2, 0);
 
+	if(IsKeyPressed(KEY_B)) currentMode = (int)Modes::Pencil;
+	if(IsKeyPressed(KEY_E)) currentMode = (int)Modes::Eraser;
+	if(IsKeyPressed(KEY_I)) currentMode = (int)Modes::Eyedrop;
+
 	for(auto& tile : level->tiles){
 		tile->setIsTouchingMouse(false);
 
@@ -143,14 +147,30 @@ void LevelEditor::Update(float dt){
 						int slot = tile->getSlot();
 						tile = std::make_unique<hcm::Tile>(hcm::Tile(0, tile->getPos(), tile->getZ()));
 						tile->setSlot(slot);
+					}else if(IsMouseButtonDown(MOUSE_BUTTON_RIGHT)){
+						auto it = std::find_if(level->tiles.begin(), level->tiles.end(), [this](const auto& tile){
+							return  this->selectedTile.idx == tile->getSlot();
+						});
+						if(it != level->tiles.end()){
+						}
+
+						tile = std::make_unique<hcm::Tile>(hcm::Tile(0, tile->getPos(), tile->getZ()));
+						tile->setSlot(selectedTile.idx);
 					}
 				}
 			break;
 			case hama::Modes::Eyedrop:
 				{
 					if(IsMouseButtonPressed(MOUSE_BUTTON_LEFT) && tile->getIsTouchingMouse() && currentZLayer == tile->getZ()){
+						currentTile = hcm::newItem<hcm::Tile>(tile->getID());
+					}
+				}
+			break;
+			case hama::Modes::SingleSelect:
+				{
+					if(IsMouseButtonPressed(MOUSE_BUTTON_LEFT) && tile->getIsTouchingMouse() && currentZLayer == tile->getZ()){
 						selectedTile = {
-							.idx = tile->getSlot(),
+						.idx = tile->getSlot(),
 							.id = 1,
 							.texture = hcm::newItem<hcm::Tile>(tile->getID()).iconTexture
 						};
@@ -171,6 +191,9 @@ void LevelEditor::Draw(){
 	level->Draw();
 
 	EndMode2D();
+
+	DrawText("Current Tile", 32-12, 20, 15, BLACK);
+	DrawText("Selected Tile", 32*4-12, 20, 15, BLACK);
 
 	DrawTexturePro(currentTile.iconTexture, {0,0,32,32}, {32, 32, 32*2, 32*2}, {0, 0}, 0, WHITE);
 	DrawTexturePro(selectedTile.texture, {0,0,32,32}, {32*4, 32, 32*2, 32*2}, {0, 0}, 0, WHITE);

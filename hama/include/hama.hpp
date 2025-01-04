@@ -17,6 +17,7 @@ enum class Modes{
 	Pencil,
 	Eraser,
 	Eyedrop,
+	SingleSelect,
 
 	EOE
 };
@@ -24,7 +25,8 @@ enum class Modes{
 inline std::map<Modes, std::string> modeToString = {
 	{Modes::Pencil, "Pencil"},
 	{Modes::Eraser, "Eraser"},
-	{Modes::Eyedrop, "Eyedrop"}
+	{Modes::Eyedrop, "Eyedrop"},
+	{Modes::SingleSelect, "SingleSelect"}
 };
 
 struct spectateLevelTile{int idx, id; Texture2D texture;};
