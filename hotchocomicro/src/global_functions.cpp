@@ -32,7 +32,7 @@ Color GetRainbowColor() {
 
 void changeIntWithKey(int& val, int incrKey, int decrKey, int maxVal, int minVal){
 	if(IsKeyPressed(incrKey)) val++;
-	if(IsKeyPressed(incrKey)) val--;
+	if(IsKeyPressed(decrKey)) val--;
 
 	if(val > maxVal) val = 0;
 	else if(val < 0) val = maxVal;

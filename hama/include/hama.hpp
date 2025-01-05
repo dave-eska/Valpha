@@ -57,5 +57,6 @@ public:
 };
 
 std::vector<std::string> tilesToStrings(std::vector<std::unique_ptr<hcm::Tile>>& tiles, Vector2 canvas_size, int total_layers);
+void writeTileJson(hcm::Level &level, Vector2 pos, std::string filename);
 
 };

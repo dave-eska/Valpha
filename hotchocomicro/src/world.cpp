@@ -34,7 +34,7 @@ void Level::Draw(){
 			for(b2Fixture* fixture = tile->getB2Body()->GetFixtureList(); fixture; fixture = fixture->GetNext()) {
 				b2Shape* shape = fixture->GetShape();
 
-				if (shape->GetType() == b2Shape::e_polygon) {
+				if(shape->GetType() == b2Shape::e_polygon) {
 					b2PolygonShape* polyShape = static_cast<b2PolygonShape*>(shape);
 					int vertexCount = polyShape->m_count;
 

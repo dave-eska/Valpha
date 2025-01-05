@@ -2,9 +2,11 @@
 
 #include "json/reader.h"
 #include "json/value.h"
+#include "json/writer.h"
 #include <algorithm>
 
 #include <fstream>
+#include <iostream>
 #include <memory>
 #include <raymath.h>
 #include <string>
@@ -93,6 +95,12 @@ void LevelEditor::Update(float dt){
 		camera.target = Vector2Add(camera.target, delta);
 	}
 
+	if(IsKeyDown(KEY_LEFT_CONTROL)){
+		if(IsKeyPressed(KEY_S)){
+			writeTileJson(*level, {0,0}, "save.json");
+		}
+	}
+
 	// Zoom with mouse wheel
 	float wheel = GetMouseWheelMove();
 	Vector2 mouseWorldPos = GetScreenToWorld2D(GetMousePosition(), camera);
@@ -139,6 +147,11 @@ void LevelEditor::Update(float dt){
 		switch((Modes)currentMode){
 			case hama::Modes::Pencil:
 				{
+					if(IsMouseButtonDown(MOUSE_BUTTON_LEFT) && tile->getIsTouchingMouse() && currentZLayer == tile->getZ()){
+						int slot = tile->getSlot();
+						tile = std::make_unique<hcm::Tile>(hcm::Tile(currentTile.tileID, tile->getPos(), tile->getZ()));
+						tile->setSlot(slot);
+					}
 				}
 			break;
 			case hama::Modes::Eraser:
@@ -146,7 +159,7 @@ void LevelEditor::Update(float dt){
 					if(IsMouseButtonDown(MOUSE_BUTTON_LEFT) && tile->getIsTouchingMouse() && currentZLayer == tile->getZ()){
 						int slot = tile->getSlot();
 						tile = std::make_unique<hcm::Tile>(hcm::Tile(0, tile->getPos(), tile->getZ()));
-						tile->setSlot(slot);
+					tile->setSlot(slot);
 					}else if(IsMouseButtonDown(MOUSE_BUTTON_RIGHT)){
 						auto it = std::find_if(level->tiles.begin(), level->tiles.end(), [this](const auto& tile){
 							return  this->selectedTile.idx == tile->getSlot();
@@ -170,7 +183,7 @@ void LevelEditor::Update(float dt){
 				{
 					if(IsMouseButtonPressed(MOUSE_BUTTON_LEFT) && tile->getIsTouchingMouse() && currentZLayer == tile->getZ()){
 						selectedTile = {
-						.idx = tile->getSlot(),
+							.idx = tile->getSlot(),
 							.id = 1,
 							.texture = hcm::newItem<hcm::Tile>(tile->getID()).iconTexture
 						};
@@ -232,6 +245,29 @@ LevelEditor::LevelEditor() : hcm::Scene("Hama", 0.5){
 
 	cammax = config["hama"]["cammax"].asFloat();
 	cammin = config["hama"]["cammin"].asFloat();
+}
+
+void writeTileJson(hcm::Level &level, Vector2 pos, std::string filename){
+	Json::Value root;
+
+	root["x"] = (int)pos.x;
+	root["y"] = (int)pos.y;
+
+	std::vector<std::string> strTiles = tilesToStrings(level.tiles, level.getSize(), level.getTotal_layers());
+	for(int i=0;i<strTiles.size();i++)
+		root["layers"][i] = strTiles[i];
+
+	Json::StreamWriterBuilder builder;
+	std::string jsonString = Json::writeString(builder, root);
+
+	std::ofstream outFile(filename);
+	if (outFile.is_open()) {
+		outFile << jsonString;
+		outFile.close();
+		std::cout << "JSON file written successfully." << std::endl;
+	}else {
+		std::cerr << "Error opening file for writing." << std::endl;
+	}
 }
 
 };

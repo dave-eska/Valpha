@@ -2,7 +2,8 @@
     //0
     {
         "name": "air",
-        "type": "special"
+        "type": "special",
+        "texture": "res/img/air.png"
     },
     //1
     {

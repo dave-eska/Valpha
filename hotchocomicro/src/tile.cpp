@@ -19,38 +19,38 @@ bool Tile::hasAnimation(){
 }
 
 InventoryItem Tile::asItem(int total_count){
-    std::vector<RecipeItem> resep;
+	std::vector<RecipeItem> resep;
 
-    Json::Reader jsonreader;
+	Json::Reader jsonreader;
 
-    std::ifstream file("res/yes.json");
-    Json::Value jsonvalue;
-    jsonreader.parse(file, jsonvalue);
+	std::ifstream file("res/yes.json");
+	Json::Value jsonvalue;
+	jsonreader.parse(file, jsonvalue);
 
-    if(jsonvalue[id].isMember("recipe")){
-        const Json::Value recipeArray = jsonvalue[id]["recipe"];
+	if(jsonvalue[id].isMember("recipe")){
+		const Json::Value recipeArray = jsonvalue[id]["recipe"];
 
-        // Iterate through the JSON array and populate the vector
-        for(const auto& elem : recipeArray) {
-            RecipeItem arr;
-            arr.id = elem[0].asInt();
-            arr.count = elem[1].asInt();
+		// Iterate through the JSON array and populate the vector
+		for(const auto& elem : recipeArray) {
+			RecipeItem arr;
+			arr.id = elem[0].asInt();
+			arr.count = elem[1].asInt();
 
-            resep.push_back(arr);
-        }
-    }
+			resep.push_back(arr);
+		}
+	}
 
-    return{
-        .tileID=id,
-            .item_type=type,
-            .item_name=name,
-            .filename = "res/yes.json",
-            .item_invslot=0,
-            .item_count=total_count,
-            .damage=1,
-            .recipe = resep,
-            .iconTexture=texture
-    };
+	return{
+		.tileID=id,
+		.item_type=type,
+		.item_name=name,
+		.filename = "res/yes.json",
+		.item_invslot=0,
+		.item_count=total_count,
+		.damage=1,
+		.recipe = resep,
+		.iconTexture=texture
+	};
 }
 
 void Tile::Update(){
@@ -64,7 +64,12 @@ void Tile::Draw(){
 		DrawSpriteAnimationPro(animation, {body.x, body.y, TILE_SIZE, TILE_SIZE}, {0, 0}, 0, WHITE, isRunningAnimation);
 	}
 
-	if(isDebugging)
+	if(isDebugging){
+		if(isTouchingMouse){
+			Color tmpColor = RED;
+			tmpColor.a /= 2;
+			DrawRectangleRec(body, tmpColor);
+		}
 		for (b2Fixture* fixture = b2body->GetFixtureList(); fixture; fixture = fixture->GetNext()) {
 			b2Shape* shape = fixture->GetShape();
 
@@ -85,6 +90,7 @@ void Tile::Draw(){
 					DrawLine(vertexBPixelPos.x, vertexBPixelPos.y, vertexAPixelPos.x, vertexAPixelPos.y, RED);
 				}
 			}
+		}
 	}
 }
 
@@ -156,7 +162,7 @@ Tile::Tile(int id, Vector2 pos, int z_level) : id{id}, body{pos.x, pos.y, TILE_S
 		if(jsonTile["texture"].isArray()){
 			int probabulity = GetRandomValue(0, jsonTile["texture"].size()-1);
 			texture = LoadTexture(jsonTile["texture"][probabulity].asString().c_str());
-		}else{
+		}else if(jsonTile.isMember("texture")){
 			texture = LoadTexture(jsonTile["texture"].asString().c_str());
 		}
 	}
