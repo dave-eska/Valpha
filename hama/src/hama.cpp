@@ -159,7 +159,7 @@ void LevelEditor::Update(float dt){
 					if(IsMouseButtonDown(MOUSE_BUTTON_LEFT) && tile->getIsTouchingMouse() && currentZLayer == tile->getZ()){
 						int slot = tile->getSlot();
 						tile = std::make_unique<hcm::Tile>(hcm::Tile(0, tile->getPos(), tile->getZ()));
-					tile->setSlot(slot);
+						tile->setSlot(slot);
 					}else if(IsMouseButtonDown(MOUSE_BUTTON_RIGHT)){
 						auto it = std::find_if(level->tiles.begin(), level->tiles.end(), [this](const auto& tile){
 							return  this->selectedTile.idx == tile->getSlot();
@@ -219,6 +219,16 @@ void LevelEditor::Draw(){
 }
 
 void LevelEditor::Unload(){
+	delete(&currentTile);
+	delete(&selectedTile);
+	delete(&maxTile);
+
+	delete(&currentZLayer);
+
+	delete(&currentMode);
+
+	delete(&cammax);
+	delete(&cammin);
 }
 
 LevelEditor::LevelEditor() : hcm::Scene("Hama", 0.5){

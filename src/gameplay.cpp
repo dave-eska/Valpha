@@ -53,6 +53,13 @@ void Gameplay::Draw(){
 }
 
 void Gameplay::Unload(){
+	delete(level);
+
+	delete(player);
+	delete(am);
+
+	delete(&camMax);
+	delete(&camMin);
 }
 
 Gameplay::Gameplay() : Scene("Gameplay Test", 0.5){

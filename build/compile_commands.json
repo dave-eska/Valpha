@@ -1,0 +1,1058 @@
+[
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build",
+  "command": "g++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/dave/Documents/c++/Valpha/main1 -I/home/dave/Documents/c++/Valpha/PUBLIC -I/home/dave/Documents/c++/Valpha/include -I/home/dave/Documents/c++/Valpha/hotchocomicro/include -I/home/dave/Documents/c++/Valpha/melnet/include -I/home/dave/Documents/c++/Valpha/hama/include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/../../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raygui/src -g -std=gnu++20 -o CMakeFiles/main1.dir/src/gameplay.cpp.o -c /home/dave/Documents/c++/Valpha/src/gameplay.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/src/gameplay.cpp",
+  "output": "CMakeFiles/main1.dir/src/gameplay.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build",
+  "command": "g++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/dave/Documents/c++/Valpha/main1 -I/home/dave/Documents/c++/Valpha/PUBLIC -I/home/dave/Documents/c++/Valpha/include -I/home/dave/Documents/c++/Valpha/hotchocomicro/include -I/home/dave/Documents/c++/Valpha/melnet/include -I/home/dave/Documents/c++/Valpha/hama/include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/../../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raygui/src -g -std=gnu++20 -o CMakeFiles/main1.dir/src/main.cpp.o -c /home/dave/Documents/c++/Valpha/src/main.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/src/main.cpp",
+  "output": "CMakeFiles/main1.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build",
+  "command": "g++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/dave/Documents/c++/Valpha/main1 -I/home/dave/Documents/c++/Valpha/PUBLIC -I/home/dave/Documents/c++/Valpha/include -I/home/dave/Documents/c++/Valpha/hotchocomicro/include -I/home/dave/Documents/c++/Valpha/melnet/include -I/home/dave/Documents/c++/Valpha/hama/include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/../../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raygui/src -g -std=gnu++20 -o CMakeFiles/main1.dir/src/mainmenu.cpp.o -c /home/dave/Documents/c++/Valpha/src/mainmenu.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/src/mainmenu.cpp",
+  "output": "CMakeFiles/main1.dir/src/mainmenu.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib",
+  "command": "/usr/bin/cc -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src -isystem /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o CMakeFiles/raylib.dir/raudio.c.o -c /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/raudio.c",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/raudio.c",
+  "output": "thirdparty/raylib/raylib/CMakeFiles/raylib.dir/raudio.c.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib",
+  "command": "/usr/bin/cc -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src -isystem /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o CMakeFiles/raylib.dir/rcore.c.o -c /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/rcore.c",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/rcore.c",
+  "output": "thirdparty/raylib/raylib/CMakeFiles/raylib.dir/rcore.c.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib",
+  "command": "/usr/bin/cc -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src -isystem /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o CMakeFiles/raylib.dir/rmodels.c.o -c /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/rmodels.c",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/rmodels.c",
+  "output": "thirdparty/raylib/raylib/CMakeFiles/raylib.dir/rmodels.c.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib",
+  "command": "/usr/bin/cc -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src -isystem /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o CMakeFiles/raylib.dir/rshapes.c.o -c /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/rshapes.c",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/rshapes.c",
+  "output": "thirdparty/raylib/raylib/CMakeFiles/raylib.dir/rshapes.c.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib",
+  "command": "/usr/bin/cc -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src -isystem /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o CMakeFiles/raylib.dir/rtext.c.o -c /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/rtext.c",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/rtext.c",
+  "output": "thirdparty/raylib/raylib/CMakeFiles/raylib.dir/rtext.c.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib",
+  "command": "/usr/bin/cc -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src -isystem /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o CMakeFiles/raylib.dir/rtextures.c.o -c /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/rtextures.c",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/rtextures.c",
+  "output": "thirdparty/raylib/raylib/CMakeFiles/raylib.dir/rtextures.c.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib",
+  "command": "/usr/bin/cc -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src -isystem /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o CMakeFiles/raylib.dir/utils.c.o -c /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/utils.c",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/utils.c",
+  "output": "thirdparty/raylib/raylib/CMakeFiles/raylib.dir/utils.c.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src -I/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/context.c.o -c /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/context.c",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/context.c",
+  "output": "thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src -I/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/init.c.o -c /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/init.c",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/init.c",
+  "output": "thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src -I/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/input.c.o -c /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/input.c",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/input.c",
+  "output": "thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src -I/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/monitor.c.o -c /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/monitor.c",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/monitor.c",
+  "output": "thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src -I/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/platform.c.o -c /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/platform.c",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/platform.c",
+  "output": "thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/platform.c.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src -I/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/vulkan.c.o -c /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/vulkan.c",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/vulkan.c",
+  "output": "thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src -I/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/window.c.o -c /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/window.c",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/window.c",
+  "output": "thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src -I/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/egl_context.c.o -c /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/egl_context.c",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/egl_context.c",
+  "output": "thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src -I/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/osmesa_context.c.o -c /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/osmesa_context.c",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/osmesa_context.c",
+  "output": "thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src -I/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/null_init.c.o -c /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/null_init.c",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/null_init.c",
+  "output": "thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_init.c.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src -I/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/null_monitor.c.o -c /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/null_monitor.c",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/null_monitor.c",
+  "output": "thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src -I/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/null_window.c.o -c /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/null_window.c",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/null_window.c",
+  "output": "thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_window.c.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src -I/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/null_joystick.c.o -c /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/null_joystick.c",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/null_joystick.c",
+  "output": "thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src -I/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/posix_module.c.o -c /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/posix_module.c",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/posix_module.c",
+  "output": "thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src -I/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/posix_time.c.o -c /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/posix_time.c",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/posix_time.c",
+  "output": "thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src -I/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/posix_thread.c.o -c /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/posix_thread.c",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/posix_thread.c",
+  "output": "thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src -I/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/x11_init.c.o -c /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/x11_init.c",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/x11_init.c",
+  "output": "thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src -I/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/x11_monitor.c.o -c /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/x11_monitor.c",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/x11_monitor.c",
+  "output": "thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src -I/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/x11_window.c.o -c /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/x11_window.c",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/x11_window.c",
+  "output": "thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src -I/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/xkb_unicode.c.o -c /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/xkb_unicode.c",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/xkb_unicode.c",
+  "output": "thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src -I/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/glx_context.c.o -c /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/glx_context.c",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/glx_context.c",
+  "output": "thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src -I/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/linux_joystick.c.o -c /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/linux_joystick.c",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/linux_joystick.c",
+  "output": "thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src -I/home/dave/Documents/c++/Valpha/build/thirdparty/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/posix_poll.c.o -c /home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/posix_poll.c",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/src/posix_poll.c",
+  "output": "thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/posix_poll.c.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/jsoncpp/src/lib_json",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/include -I/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/../../include -g -std=c++11 -Wall -Wconversion -Wshadow -Wextra -Wpedantic -Werror=strict-aliasing -o CMakeFiles/jsoncpp_static.dir/json_reader.cpp.o -c /home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/json_reader.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/json_reader.cpp",
+  "output": "thirdparty/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_static.dir/json_reader.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/jsoncpp/src/lib_json",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/include -I/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/../../include -g -std=c++11 -Wall -Wconversion -Wshadow -Wextra -Wpedantic -Werror=strict-aliasing -o CMakeFiles/jsoncpp_static.dir/json_value.cpp.o -c /home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/json_value.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/json_value.cpp",
+  "output": "thirdparty/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_static.dir/json_value.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/jsoncpp/src/lib_json",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/include -I/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/../../include -g -std=c++11 -Wall -Wconversion -Wshadow -Wextra -Wpedantic -Werror=strict-aliasing -o CMakeFiles/jsoncpp_static.dir/json_writer.cpp.o -c /home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/json_writer.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/json_writer.cpp",
+  "output": "thirdparty/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_static.dir/json_writer.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/jsoncpp/src/lib_json",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/include -I/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/../../include -g -std=c++11 -Wall -Wconversion -Wshadow -Wextra -Wpedantic -Werror=strict-aliasing -o CMakeFiles/jsoncpp_object.dir/json_reader.cpp.o -c /home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/json_reader.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/json_reader.cpp",
+  "output": "thirdparty/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_object.dir/json_reader.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/jsoncpp/src/lib_json",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/include -I/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/../../include -g -std=c++11 -Wall -Wconversion -Wshadow -Wextra -Wpedantic -Werror=strict-aliasing -o CMakeFiles/jsoncpp_object.dir/json_value.cpp.o -c /home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/json_value.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/json_value.cpp",
+  "output": "thirdparty/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_object.dir/json_value.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/jsoncpp/src/lib_json",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/include -I/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/../../include -g -std=c++11 -Wall -Wconversion -Wshadow -Wextra -Wpedantic -Werror=strict-aliasing -o CMakeFiles/jsoncpp_object.dir/json_writer.cpp.o -c /home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/json_writer.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/json_writer.cpp",
+  "output": "thirdparty/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_object.dir/json_writer.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/jsoncpp/src/jsontestrunner",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/include -I/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/../../include -g -std=c++11 -Wall -Wconversion -Wshadow -Wextra -Wpedantic -o CMakeFiles/jsontestrunner_exe.dir/main.cpp.o -c /home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/jsontestrunner/main.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/jsontestrunner/main.cpp",
+  "output": "thirdparty/jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/main.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/jsoncpp/src/test_lib_json",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/include -I/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/../../include -g -std=c++11 -Wall -Wconversion -Wshadow -Wextra -Wpedantic -o CMakeFiles/jsoncpp_test.dir/jsontest.cpp.o -c /home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/test_lib_json/jsontest.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/test_lib_json/jsontest.cpp",
+  "output": "thirdparty/jsoncpp/src/test_lib_json/CMakeFiles/jsoncpp_test.dir/jsontest.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/jsoncpp/src/test_lib_json",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/include -I/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/../../include -g -std=c++11 -Wall -Wconversion -Wshadow -Wextra -Wpedantic -o CMakeFiles/jsoncpp_test.dir/fuzz.cpp.o -c /home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/test_lib_json/fuzz.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/test_lib_json/fuzz.cpp",
+  "output": "thirdparty/jsoncpp/src/test_lib_json/CMakeFiles/jsoncpp_test.dir/fuzz.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/thirdparty/jsoncpp/src/test_lib_json",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/include -I/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/../../include -g -std=c++11 -Wall -Wconversion -Wshadow -Wextra -Wpedantic -o CMakeFiles/jsoncpp_test.dir/main.cpp.o -c /home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/test_lib_json/main.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/test_lib_json/main.cpp",
+  "output": "thirdparty/jsoncpp/src/test_lib_json/CMakeFiles/jsoncpp_test.dir/main.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/hotchocomicro",
+  "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/dave/Documents/c++/Valpha/hotchocomicro/include -I/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/../../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles/hcm.dir/src/ability.cpp.o -c /home/dave/Documents/c++/Valpha/hotchocomicro/src/ability.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/hotchocomicro/src/ability.cpp",
+  "output": "hotchocomicro/CMakeFiles/hcm.dir/src/ability.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/hotchocomicro",
+  "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/dave/Documents/c++/Valpha/hotchocomicro/include -I/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/../../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles/hcm.dir/src/animation.cpp.o -c /home/dave/Documents/c++/Valpha/hotchocomicro/src/animation.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/hotchocomicro/src/animation.cpp",
+  "output": "hotchocomicro/CMakeFiles/hcm.dir/src/animation.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/hotchocomicro",
+  "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/dave/Documents/c++/Valpha/hotchocomicro/include -I/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/../../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles/hcm.dir/src/global_functions.cpp.o -c /home/dave/Documents/c++/Valpha/hotchocomicro/src/global_functions.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/hotchocomicro/src/global_functions.cpp",
+  "output": "hotchocomicro/CMakeFiles/hcm.dir/src/global_functions.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/hotchocomicro",
+  "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/dave/Documents/c++/Valpha/hotchocomicro/include -I/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/../../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles/hcm.dir/src/hcm.cpp.o -c /home/dave/Documents/c++/Valpha/hotchocomicro/src/hcm.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/hotchocomicro/src/hcm.cpp",
+  "output": "hotchocomicro/CMakeFiles/hcm.dir/src/hcm.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/hotchocomicro",
+  "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/dave/Documents/c++/Valpha/hotchocomicro/include -I/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/../../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles/hcm.dir/src/player.cpp.o -c /home/dave/Documents/c++/Valpha/hotchocomicro/src/player.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/hotchocomicro/src/player.cpp",
+  "output": "hotchocomicro/CMakeFiles/hcm.dir/src/player.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/hotchocomicro",
+  "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/dave/Documents/c++/Valpha/hotchocomicro/include -I/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/../../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles/hcm.dir/src/scene.cpp.o -c /home/dave/Documents/c++/Valpha/hotchocomicro/src/scene.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/hotchocomicro/src/scene.cpp",
+  "output": "hotchocomicro/CMakeFiles/hcm.dir/src/scene.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/hotchocomicro",
+  "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/dave/Documents/c++/Valpha/hotchocomicro/include -I/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/../../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles/hcm.dir/src/tile.cpp.o -c /home/dave/Documents/c++/Valpha/hotchocomicro/src/tile.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/hotchocomicro/src/tile.cpp",
+  "output": "hotchocomicro/CMakeFiles/hcm.dir/src/tile.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/hotchocomicro",
+  "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/dave/Documents/c++/Valpha/hotchocomicro/include -I/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/../../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles/hcm.dir/src/utils/fileUtil.cpp.o -c /home/dave/Documents/c++/Valpha/hotchocomicro/src/utils/fileUtil.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/hotchocomicro/src/utils/fileUtil.cpp",
+  "output": "hotchocomicro/CMakeFiles/hcm.dir/src/utils/fileUtil.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/hotchocomicro",
+  "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/dave/Documents/c++/Valpha/hotchocomicro/include -I/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/../../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles/hcm.dir/src/utils/numUtils.cpp.o -c /home/dave/Documents/c++/Valpha/hotchocomicro/src/utils/numUtils.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/hotchocomicro/src/utils/numUtils.cpp",
+  "output": "hotchocomicro/CMakeFiles/hcm.dir/src/utils/numUtils.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/hotchocomicro",
+  "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/dave/Documents/c++/Valpha/hotchocomicro/include -I/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/../../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -g -std=gnu++20 -o CMakeFiles/hcm.dir/src/world.cpp.o -c /home/dave/Documents/c++/Valpha/hotchocomicro/src/world.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/hotchocomicro/src/world.cpp",
+  "output": "hotchocomicro/CMakeFiles/hcm.dir/src/world.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/melnet",
+  "command": "/usr/bin/c++ -DASIO_NO_DEPRECATED -DASIO_STANDALONE -I/home/dave/Documents/c++/Valpha/melnet/include -I/home/dave/Documents/c++/Valpha/build/_deps/asio-cmake-src/asio-asio-1-12-2-src/asio/include -g -std=gnu++20 -o CMakeFiles/melnet.dir/src/melnet.cpp.o -c /home/dave/Documents/c++/Valpha/melnet/src/melnet.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/melnet/src/melnet.cpp",
+  "output": "melnet/CMakeFiles/melnet.dir/src/melnet.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/hama",
+  "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/dave/Documents/c++/Valpha/hama/include -I/home/dave/Documents/c++/Valpha/thirdparty/jsoncpp/src/lib_json/../../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/hotchocomicro/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raygui/src -g -std=gnu++20 -o CMakeFiles/hama.dir/src/hama.cpp.o -c /home/dave/Documents/c++/Valpha/hama/src/hama.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/hama/src/hama.cpp",
+  "output": "hama/CMakeFiles/hama.dir/src/hama.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/collision/b2_broad_phase.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/collision/b2_broad_phase.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/collision/b2_broad_phase.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_broad_phase.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/collision/b2_chain_shape.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/collision/b2_chain_shape.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/collision/b2_chain_shape.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_chain_shape.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/collision/b2_circle_shape.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/collision/b2_circle_shape.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/collision/b2_circle_shape.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_circle_shape.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/collision/b2_collide_circle.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/collision/b2_collide_circle.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/collision/b2_collide_circle.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_collide_circle.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/collision/b2_collide_edge.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/collision/b2_collide_edge.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/collision/b2_collide_edge.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_collide_edge.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/collision/b2_collide_polygon.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/collision/b2_collide_polygon.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/collision/b2_collide_polygon.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_collide_polygon.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/collision/b2_collision.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/collision/b2_collision.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/collision/b2_collision.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_collision.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/collision/b2_distance.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/collision/b2_distance.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/collision/b2_distance.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_distance.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/collision/b2_dynamic_tree.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/collision/b2_dynamic_tree.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/collision/b2_dynamic_tree.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_dynamic_tree.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/collision/b2_edge_shape.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/collision/b2_edge_shape.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/collision/b2_edge_shape.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_edge_shape.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/collision/b2_polygon_shape.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/collision/b2_polygon_shape.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/collision/b2_polygon_shape.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_polygon_shape.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/collision/b2_time_of_impact.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/collision/b2_time_of_impact.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/collision/b2_time_of_impact.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_time_of_impact.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/common/b2_block_allocator.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/common/b2_block_allocator.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/common/b2_block_allocator.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/common/b2_block_allocator.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/common/b2_draw.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/common/b2_draw.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/common/b2_draw.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/common/b2_draw.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/common/b2_math.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/common/b2_math.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/common/b2_math.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/common/b2_math.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/common/b2_settings.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/common/b2_settings.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/common/b2_settings.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/common/b2_settings.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/common/b2_stack_allocator.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/common/b2_stack_allocator.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/common/b2_stack_allocator.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/common/b2_stack_allocator.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/common/b2_timer.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/common/b2_timer.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/common/b2_timer.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/common/b2_timer.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/dynamics/b2_body.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_body.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_body.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_body.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/dynamics/b2_chain_circle_contact.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_chain_circle_contact.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_chain_circle_contact.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_chain_circle_contact.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/dynamics/b2_chain_polygon_contact.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_chain_polygon_contact.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_chain_polygon_contact.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_chain_polygon_contact.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/dynamics/b2_circle_contact.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_circle_contact.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_circle_contact.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_circle_contact.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/dynamics/b2_contact.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_contact.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_contact.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_contact.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/dynamics/b2_contact_manager.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_contact_manager.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_contact_manager.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_contact_manager.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/dynamics/b2_contact_solver.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_contact_solver.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_contact_solver.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_contact_solver.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/dynamics/b2_distance_joint.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_distance_joint.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_distance_joint.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_distance_joint.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/dynamics/b2_edge_circle_contact.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_edge_circle_contact.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_edge_circle_contact.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_edge_circle_contact.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/dynamics/b2_edge_polygon_contact.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_edge_polygon_contact.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_edge_polygon_contact.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_edge_polygon_contact.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/dynamics/b2_fixture.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_fixture.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_fixture.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_fixture.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/dynamics/b2_friction_joint.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_friction_joint.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_friction_joint.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_friction_joint.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/dynamics/b2_gear_joint.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_gear_joint.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_gear_joint.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_gear_joint.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/dynamics/b2_island.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_island.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_island.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_island.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/dynamics/b2_joint.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_joint.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_joint.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_joint.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/dynamics/b2_motor_joint.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_motor_joint.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_motor_joint.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_motor_joint.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/dynamics/b2_mouse_joint.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_mouse_joint.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_mouse_joint.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_mouse_joint.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/dynamics/b2_polygon_circle_contact.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_polygon_circle_contact.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_polygon_circle_contact.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_polygon_circle_contact.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/dynamics/b2_polygon_contact.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_polygon_contact.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_polygon_contact.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_polygon_contact.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/dynamics/b2_prismatic_joint.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_prismatic_joint.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_prismatic_joint.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_prismatic_joint.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/dynamics/b2_pulley_joint.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_pulley_joint.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_pulley_joint.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_pulley_joint.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/dynamics/b2_revolute_joint.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_revolute_joint.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_revolute_joint.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_revolute_joint.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/dynamics/b2_weld_joint.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_weld_joint.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_weld_joint.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_weld_joint.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/dynamics/b2_wheel_joint.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_wheel_joint.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_wheel_joint.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_wheel_joint.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/dynamics/b2_world.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_world.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_world.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_world.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/dynamics/b2_world_callbacks.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_world_callbacks.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/dynamics/b2_world_callbacks.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_world_callbacks.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/src",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/box2d.dir/rope/b2_rope.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/rope/b2_rope.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/rope/b2_rope.cpp",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/rope/b2_rope.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/unit-test",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/unit_test.dir/hello_world.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/unit-test/hello_world.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/unit-test/hello_world.cpp",
+  "output": "_deps/box2d-build/unit-test/CMakeFiles/unit_test.dir/hello_world.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/unit-test",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/unit_test.dir/collision_test.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/unit-test/collision_test.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/unit-test/collision_test.cpp",
+  "output": "_deps/box2d-build/unit-test/CMakeFiles/unit_test.dir/collision_test.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/unit-test",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/unit_test.dir/joint_test.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/unit-test/joint_test.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/unit-test/joint_test.cpp",
+  "output": "_deps/box2d-build/unit-test/CMakeFiles/unit_test.dir/joint_test.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/unit-test",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/unit_test.dir/math_test.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/unit-test/math_test.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/unit-test/math_test.cpp",
+  "output": "_deps/box2d-build/unit-test/CMakeFiles/unit_test.dir/math_test.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/unit-test",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/unit_test.dir/world_test.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/unit-test/world_test.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/unit-test/world_test.cpp",
+  "output": "_deps/box2d-build/unit-test/CMakeFiles/unit_test.dir/world_test.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/extern/glad",
+  "command": "/usr/bin/cc  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -o CMakeFiles/glad.dir/src/gl.c.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/src/gl.c",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/src/gl.c",
+  "output": "_deps/box2d-build/extern/glad/CMakeFiles/glad.dir/src/gl.c.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/extern/imgui",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/imgui.dir/imgui.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/imgui.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/imgui.cpp",
+  "output": "_deps/box2d-build/extern/imgui/CMakeFiles/imgui.dir/imgui.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/extern/imgui",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/imgui.dir/imgui_demo.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/imgui_demo.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/imgui_demo.cpp",
+  "output": "_deps/box2d-build/extern/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/extern/imgui",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/imgui.dir/imgui_draw.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/imgui_draw.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/imgui_draw.cpp",
+  "output": "_deps/box2d-build/extern/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/extern/imgui",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/imgui.dir/imgui_widgets.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/imgui_widgets.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/imgui_widgets.cpp",
+  "output": "_deps/box2d-build/extern/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/extern/sajson",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/sajson.dir/sajson.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/sajson.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/sajson.cpp",
+  "output": "_deps/box2d-build/extern/sajson/CMakeFiles/sajson.dir/sajson.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/draw.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/draw.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/draw.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/draw.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/imgui_impl_glfw.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/imgui_impl_glfw.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/imgui_impl_glfw.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/imgui_impl_glfw.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/imgui_impl_opengl3.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/imgui_impl_opengl3.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/imgui_impl_opengl3.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/imgui_impl_opengl3.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/main.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/main.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/main.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/main.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/settings.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/settings.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/settings.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/settings.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/test.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/test.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/test.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/test.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/benchmark_boxes.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/benchmark_boxes.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/benchmark_boxes.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/benchmark_boxes.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/add_pair.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/add_pair.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/add_pair.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/add_pair.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/apply_force.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/apply_force.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/apply_force.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/apply_force.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/body_types.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/body_types.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/body_types.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/body_types.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/box_stack.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/box_stack.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/box_stack.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/box_stack.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/breakable.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/breakable.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/breakable.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/breakable.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/bridge.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/bridge.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/bridge.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/bridge.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/bullet_test.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/bullet_test.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/bullet_test.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/bullet_test.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/cantilever.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/cantilever.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/cantilever.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/cantilever.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/car.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/car.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/car.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/car.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/chain.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/chain.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/chain.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/chain.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/chain_problem.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/chain_problem.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/chain_problem.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/chain_problem.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/character_collision.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/character_collision.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/character_collision.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/character_collision.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/circle_stack.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/circle_stack.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/circle_stack.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/circle_stack.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/collision_filtering.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/collision_filtering.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/collision_filtering.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/collision_filtering.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/collision_processing.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/collision_processing.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/collision_processing.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/collision_processing.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/compound_shapes.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/compound_shapes.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/compound_shapes.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/compound_shapes.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/confined.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/confined.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/confined.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/confined.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/continuous_test.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/continuous_test.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/continuous_test.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/continuous_test.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/convex_hull.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/convex_hull.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/convex_hull.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/convex_hull.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/conveyor_belt.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/conveyor_belt.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/conveyor_belt.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/conveyor_belt.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/distance_joint.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/distance_joint.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/distance_joint.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/distance_joint.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/distance_test.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/distance_test.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/distance_test.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/distance_test.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/dominos.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/dominos.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/dominos.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/dominos.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/dump_loader.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/dump_loader.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/dump_loader.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/dump_loader.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/dynamic_tree.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/dynamic_tree.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/dynamic_tree.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/dynamic_tree.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/edge_shapes.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/edge_shapes.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/edge_shapes.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/edge_shapes.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/edge_test.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/edge_test.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/edge_test.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/edge_test.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/friction.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/friction.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/friction.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/friction.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/gear_joint.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/gear_joint.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/gear_joint.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/gear_joint.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/heavy1.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/heavy1.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/heavy1.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/heavy1.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/heavy2.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/heavy2.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/heavy2.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/heavy2.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/mobile_balanced.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/mobile_balanced.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/mobile_balanced.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/mobile_balanced.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/mobile_unbalanced.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/mobile_unbalanced.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/mobile_unbalanced.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/mobile_unbalanced.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/motor_joint.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/motor_joint.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/motor_joint.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/motor_joint.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/pinball.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/pinball.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/pinball.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/pinball.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/platformer.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/platformer.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/platformer.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/platformer.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/polygon_collision.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/polygon_collision.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/polygon_collision.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/polygon_collision.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/polygon_shapes.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/polygon_shapes.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/polygon_shapes.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/polygon_shapes.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/prismatic_joint.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/prismatic_joint.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/prismatic_joint.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/prismatic_joint.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/pulley_joint.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/pulley_joint.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/pulley_joint.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/pulley_joint.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/pyramid.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/pyramid.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/pyramid.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/pyramid.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/ray_cast.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/ray_cast.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/ray_cast.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/ray_cast.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/restitution.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/restitution.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/restitution.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/restitution.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/revolute_joint.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/revolute_joint.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/revolute_joint.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/revolute_joint.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/rope.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/rope.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/rope.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/rope.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/sensor.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/sensor.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/sensor.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/sensor.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/shape_cast.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/shape_cast.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/shape_cast.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/shape_cast.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/shape_editing.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/shape_editing.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/shape_editing.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/shape_editing.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/skier.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/skier.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/skier.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/skier.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/slider_crank_1.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/slider_crank_1.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/slider_crank_1.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/slider_crank_1.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/slider_crank_2.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/slider_crank_2.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/slider_crank_2.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/slider_crank_2.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/theo_jansen.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/theo_jansen.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/theo_jansen.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/theo_jansen.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/tiles.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/tiles.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/tiles.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/tiles.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/time_of_impact.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/time_of_impact.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/time_of_impact.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/time_of_impact.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/tumbler.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/tumbler.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/tumbler.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/tumbler.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/web.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/web.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/web.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/web.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/wheel_joint.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/wheel_joint.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/wheel_joint.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/wheel_joint.cpp.o"
+},
+{
+  "directory": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-build/testbed",
+  "command": "/usr/bin/c++  -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/src/../include -I/home/dave/Documents/c++/Valpha/thirdparty/raylib/src/external/glfw/include -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/imgui/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/sajson/.. -I/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/extern/glad/include -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/testbed.dir/tests/wrecking_ball.cpp.o -c /home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/wrecking_ball.cpp",
+  "file": "/home/dave/Documents/c++/Valpha/build/_deps/box2d-src/testbed/tests/wrecking_ball.cpp",
+  "output": "_deps/box2d-build/testbed/CMakeFiles/testbed.dir/tests/wrecking_ball.cpp.o"
+}
+]

@@ -5,6 +5,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 add_subdirectory("thirdparty/raylib")
 add_subdirectory("thirdparty/jsoncpp")
+add_subdirectory("thirdparty/raygui")
 
 #project
 project(main1)
