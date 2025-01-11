@@ -23,6 +23,8 @@ void Gameplay::Update(float dt){
 	if(!isTyping){
         camera.target = {player->getBody().x + (player->getBody().width/2), player->getBody().y + (player->getBody().height/2)};
         player->Move(GetFrameTime());
+
+		if(IsKeyPressed(KEY_ESCAPE)) returnCode = 1;
     }
 
 	level->Update(GetFrameTime());
@@ -72,4 +74,6 @@ Gameplay::Gameplay() : Scene("Gameplay Test", 0.5){
 
 	camMax = 3.0f;
 	camMin = 0.1f;
+
+	returnCode = 1;
 }

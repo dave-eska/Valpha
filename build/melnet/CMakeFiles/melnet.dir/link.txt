@@ -1,2 +1,0 @@
-/usr/bin/ar qc libmelnet.a CMakeFiles/melnet.dir/src/melnet.cpp.o
-/usr/bin/ranlib libmelnet.a

@@ -211,9 +211,6 @@ static void UpdateTransition(void)
 			// Unload current screen
 			switch(transFromScreen)
 			{
-				case (int)vMode::MainMenu: mainmenu->Unload(); break;
-				case (int)vMode::Gameplay: gameplay->Unload(); break;
-				case (int)vMode::LevelEditor: leveleditor->Unload(); break;
 				default: break;
 			}
 
@@ -267,6 +264,7 @@ static void UpdateDrawFrame(void)
 
 					if(mainmenu->getReturnCode() == 1) {mainmenu->resetReturnCode(); TransitionToScreen(vMode::LevelEditor);}
 					else if(mainmenu->getReturnCode() == 2) {mainmenu->resetReturnCode(); TransitionToScreen(vMode::Gameplay);}
+					else if(mainmenu->getReturnCode() == 3) {mainmenu->resetReturnCode(); TransitionToScreen(vMode::MainMenu);}
 
 			}break;
 			case vMode::Gameplay:

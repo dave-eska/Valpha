@@ -87,6 +87,8 @@ void LevelEditor::fill(std::vector<std::unique_ptr<hcm::Tile>>& canvas, int x, i
 }
 
 void LevelEditor::Update(float dt){
+	if(IsKeyPressed(KEY_ESCAPE)) returnCode = 1;
+
 	// Camera Movement
 	if(IsMouseButtonDown(MOUSE_BUTTON_RIGHT) or IsMouseButtonDown(MOUSE_BUTTON_MIDDLE)){
 		Vector2 delta = GetMouseDelta();

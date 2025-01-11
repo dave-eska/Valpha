@@ -1,2 +1,0 @@
-/usr/bin/ar qc libhcm.a CMakeFiles/hcm.dir/src/ability.cpp.o CMakeFiles/hcm.dir/src/animation.cpp.o CMakeFiles/hcm.dir/src/global_functions.cpp.o CMakeFiles/hcm.dir/src/hcm.cpp.o CMakeFiles/hcm.dir/src/player.cpp.o CMakeFiles/hcm.dir/src/scene.cpp.o CMakeFiles/hcm.dir/src/tile.cpp.o CMakeFiles/hcm.dir/src/utils/fileUtil.cpp.o CMakeFiles/hcm.dir/src/utils/numUtils.cpp.o CMakeFiles/hcm.dir/src/world.cpp.o
-/usr/bin/ranlib libhcm.a
