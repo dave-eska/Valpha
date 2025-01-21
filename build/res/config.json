@@ -1,8 +1,7 @@
 {
 	"showDebugLog": false,
 	"hama": {
-		//"defaultLevelPath": "res/levels/test.json",
-		"defaultLevelPath": "save.json",
+		"defaultLevelPath": "res/levels/test.json",
 
 		"defaultTileID": 1,
 
