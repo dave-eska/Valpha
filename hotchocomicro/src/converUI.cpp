@@ -10,6 +10,7 @@ namespace hcm{
 void MessageUI::Draw(){
 	DrawTextureEx(base, basePos, 0, 7, WHITE);
 	DrawTextureEx(npcPrev, {basePos.x+(7*7), basePos.y-(15*7)}, 0, 7, WHITE);
+	DrawTextureEx(name, {basePos.x+(96*7), basePos.y-(8*7)}, 0, 7, WHITE);
 }
 
 MessageUI::MessageUI(const char* jsonFilePath){
