@@ -11,6 +11,10 @@ void MessageUI::Draw(){
 	DrawTextureEx(base, basePos, 0, 7, WHITE);
 	DrawTextureEx(npcPrev, {basePos.x+(7*7), basePos.y-(15*7)}, 0, 7, WHITE);
 	DrawTextureEx(name, {basePos.x+(96*7), basePos.y-(8*7)}, 0, 7, WHITE);
+
+	DrawText(msg.c_str(), basePos.x+50, basePos.y+50, 20, BLACK);
+
+	basePos = {((float)GetScreenWidth()/2) - ((float)(base.width*7)/2), 760};
 }
 
 MessageUI::MessageUI(const char* jsonFilePath){
@@ -20,13 +24,14 @@ MessageUI::MessageUI(const char* jsonFilePath){
 	name = LoadTexture("res/img/converName.png");
 	npcPrev = LoadTexture("res/img/converNPCPreview.png");
 
-	basePos = {((float)GetScreenWidth()/2) - ((float)(base.width*7)/2), 760};
 
 	Json::Reader jsonreader;
 	Json::Value root;
 
 	std::ifstream file(jsonFilePath);
 	jsonreader.parse(file, root);
+
+	msg = root["message"].asString();
 }
 
 MessageUI::MessageUI(){

@@ -1,5 +1,6 @@
 #pragma once
 
+#include "converUI.hpp"
 #include "world.hpp"
 #include "scene.hpp"
 #include "player.hpp"
@@ -14,6 +15,8 @@ private:
 
 	float camMax;
 	float camMin;
+
+	hcm::MessageUI msg;
 public:
 	void Update(float dt) override;
 	void Draw() override;

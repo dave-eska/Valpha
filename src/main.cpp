@@ -48,8 +48,8 @@ float clearChat = 10.0f;
 //----------------------------------------------------------------------------------
 // Local Variables Definition (local to this module)
 //----------------------------------------------------------------------------------
-static const int screenWidth = 1600;
-static const int screenHeight = 900;
+static const int screenWidth = 1920;
+static const int screenHeight = 1080;
 
 // Required variables to manage screen transitions (fade-in, fade-out)
 static float transAlpha = 0.0f;
@@ -78,12 +78,13 @@ int main(){
 
 	Json::Reader jsonreader;
 
-	std::ifstream file("config.json");
+	std::ifstream file("res/config.json");
 	jsonreader.parse(file, config);
 
 	//---------------------------------------------------------
 
 	if(!config["showDebugLog"].asBool()) SetTraceLogLevel(LOG_NONE);
+	if(config["resize"].asBool()) SetConfigFlags(FLAG_WINDOW_RESIZABLE);
 	InitWindow(screenWidth, screenHeight, "Kookies");
 
 	InitAudioDevice();      // Initialize audio device

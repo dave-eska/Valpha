@@ -1,5 +1,6 @@
 {
 	"showDebugLog": false,
+	"resize": true,
 	"hama": {
 		"defaultLevelPath": "res/levels/test.json",
 
@@ -9,7 +10,7 @@
 		"cammin": 0.1,
 	},
 	"hcm": {
-		"cammax": 3.0,
-		"cammin": 0.1,
+		"cammax": 0.8,
+		"cammin": 0.8,
 	}
 }

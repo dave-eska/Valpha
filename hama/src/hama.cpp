@@ -8,6 +8,7 @@
 #include <fstream>
 #include <iostream>
 #include <memory>
+#include <ostream>
 #include <raymath.h>
 #include <string>
 
@@ -87,7 +88,7 @@ void LevelEditor::fill(std::vector<std::unique_ptr<hcm::Tile>>& canvas, int x, i
 }
 
 void LevelEditor::Update(float dt){
-	if(IsKeyPressed(KEY_ESCAPE)) returnCode = 1;
+	if(IsKeyPressed(KEY_CAPS_LOCK)) { returnCode = 1; chatlog.push_back(std::to_string(returnCode)); }
 
 	// Camera Movement
 	if(IsMouseButtonDown(MOUSE_BUTTON_RIGHT) or IsMouseButtonDown(MOUSE_BUTTON_MIDDLE)){
@@ -235,14 +236,15 @@ void LevelEditor::Unload(){
 
 LevelEditor::LevelEditor() : hcm::Scene("Hama", 0.5){
 	level = new hcm::Level(config["hama"]["defaultLevelPath"].asString().c_str());
+	std::cout<<config["hama"]["defaultLevelPath"].asString().c_str()<<std::endl;
 
-	currentTile = hcm::newItem<hcm::Tile>(1);
+	currentTile = hcm::newItem<hcm::Tile>(config["hama"]["defaultTileID"].asInt());
 	currentMode = (int)Modes::Pencil;
 
 	selectedTile = {
 		.idx = -1,
-		.id = 1,
-		.texture = hcm::newItem<hcm::Tile>(1).iconTexture
+		.id = 2,
+		.texture = hcm::newItem<hcm::Tile>(2).iconTexture
 	};
 
 	currentZLayer = 0;
@@ -257,6 +259,9 @@ LevelEditor::LevelEditor() : hcm::Scene("Hama", 0.5){
 
 	cammax = config["hama"]["cammax"].asFloat();
 	cammin = config["hama"]["cammin"].asFloat();
+
+	chatlog.push_back(std::to_string(cammax));
+	chatlog.push_back(std::to_string(cammin));
 }
 
 void writeTileJson(hcm::Level &level, Vector2 pos, std::string filename){

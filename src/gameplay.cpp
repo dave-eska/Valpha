@@ -3,6 +3,7 @@
 #include <string>
 #include <cstring>
 
+#include "converUI.hpp"
 #include "global_variable.hpp"
 
 #include <raylib.h>
@@ -16,6 +17,7 @@ void Gameplay::Update(float dt){
 
 	if(wheelMove != 0.0f) {
 		camera.zoom += wheelMove * 0.1f; // Adjust zoom sensitivity if needed
+		chatlog.push_back(std::to_string(camera.zoom));
 		if (camera.zoom > camMax) camera.zoom = camMax;
 		if (camera.zoom < camMin) camera.zoom = camMin;
 	}
@@ -24,7 +26,7 @@ void Gameplay::Update(float dt){
         camera.target = {player->getBody().x + (player->getBody().width/2), player->getBody().y + (player->getBody().height/2)};
         player->Move(GetFrameTime());
 
-		if(IsKeyPressed(KEY_ESCAPE)) returnCode = 1;
+		if(IsKeyPressed(KEY_CAPS_LOCK)) returnCode = 1;
     }
 
 	level->Update(GetFrameTime());
@@ -41,6 +43,8 @@ void Gameplay::Draw(){
 
 	am->Draw();
 	am->DrawUI();
+
+	msg.Draw();
 
 	for(int i=0;i<chatlog.size();i++){
 		auto& chat = chatlog[i];
@@ -72,8 +76,13 @@ Gameplay::Gameplay() : Scene("Gameplay Test", 0.5){
 	player = new hcm::Player("res/img/player_atlas.png", {TILE_SIZE*2,TILE_SIZE*3}, 500, *level->b2world);
 	am = new hcm::AbilityManager(*player);
 
-	camMax = 3.0f;
-	camMin = 0.1f;
+	camMax = config["hcm"]["cammax"].asFloat();
+	camMax = config["hcm"]["cammin"].asFloat();
 
-	returnCode = 1;
+	chatlog.push_back(std::to_string(config["hcm"]["cammax"].asFloat()));
+	chatlog.push_back(std::to_string(config["hcm"]["cammin"].asFloat()));
+
+	msg = hcm::MessageUI("res/msg/opening/opening.json");
+
+	returnCode = 0;
 }
